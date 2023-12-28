@@ -1,0 +1,15 @@
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere?"
+
+result_str = ''
+start_of_line = True
+
+for char in text:
+    
+    if char in ['.', '?', ':']:
+        result_str += char + '\n\n'
+        start_of_line = True
+    elif not start_of_line or char != " ":
+        result_str += char + ''
+        start_of_line = False
+print(result_str)
