@@ -1,7 +1,11 @@
 """
-Compatibility Calculator Program
+Love Compatibility Calculator Program
 
-This program takes input names from the user, concatenates them, and then calculates a compatibility score based on the occurrences of the letters 't', 'r', 'u', 'e', 'l', 'o', 'v', and 'e' in the combined names. The program categorizes the compatibility into three levels: high, moderate, and low.
+This program takes input names from the user,
+concatenates them, and then calculates a compatibility score
+based on the occurrences of the letters 't', 'r', 'u', 'e', 'l', 'o', 'v', and 'e'
+in the combined names. The program categorizes the compatibility into three levels:
+high, moderate, and low.
 
 Usage:
 1. Run the program.
@@ -9,7 +13,9 @@ Usage:
 3. Input the name of your crush when prompted.
 4. The program calculates the compatibility score and provides a compatibility level.
 
-Note: The compatibility score is calculated by counting the occurrences of the letters 't', 'r', 'u', 'e', 'l', 'o', 'v', and 'e' in the combined names.
+Note: The compatibility score is calculated by counting
+the occurrences of the letters 't', 'r', 'u', 'e', 'l', 'o', 'v', and 'e'
+in the combined names.
 
 """
 
